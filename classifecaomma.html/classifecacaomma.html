@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src=' main.js'></script>
+    <style>
+        #titulo{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 35px;
+            background-color: rgb(125, 95, 160);
+            text-align: center;
+            padding: 20px;
+            font-weight: bolder;
+        }
+        p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <p id="titulo">Programa de classificação de lutador de MMA</p>
+    <p>Informe seu nome: </p>
+    <input id="nome" type="text">
+    <p>Informe sua idade: </p>
+    <input id="idade" type="number">
+    <p>informe seu peso:</p>
+    <input id="peso" type="number"><br><br>
+   <button onclick="">Classificar</button>
+    <p id="resposta">Classificação</p>
+
+ <script type="text/javascript">
+  function Classificação(){
+    let nome = document.getElementById('nome').valur
+    let idade = document.getElementById('nome').valur
+    let peso = document.getElementById('nome').valur
+  }
+    if(peso <= 52.2){
+        document.getElementById ('resposta').innerHTML = "Parabéns ";
+      nome + ", voce está na categoria palha"; 
+
+    }
+    if(peso >= 52.3 && peso <=56.7 )
+    document.getElementById ('resposta').innerHTML = "Parabéns ";
+      nome + ", voce está na categoria mosca"; 
+    {
+      if(peso >=56.7 && peso <=61.2 )
+    document.getElementById ('resposta').innerHTML = "Parabéns ";
+      nome + ", voce está na categoria galo"; 
+    }
+    if(peso >=61.2  && peso <=65.8 )
+    document.getElementById ('resposta').innerHTML = "Parabéns ";
+      nome + ", voce está na categoria pena"; 
+      {
+      if(peso >=65.9 && peso <=70,3 )
+    document.getElementById ('resposta').innerHTML = "Parabéns ";
+      nome + ", voce está na categoria leve"; 
+      }
+      if(peso >=70.4 && peso <=77.1 )
+    document.getElementById ('resposta').innerHTML = "Parabéns ";
+      nome + ", voce está na categoria meio-medio"; 
+    {
+      if(peso >= 77,2 && peso <=  83,9 )
+    document.getElementById ('resposta').innerHTML = "Parabéns ";
+      nome + ", voce está na categoria médio";  
+      
+      if(peso >= 84,0 && peso <= 92,9)
+    document.getElementById ('resposta').innerHTML = "Parabéns ";
+      nome + ", voce está na categoria médio"; 
+    
+      if(peso >= 93,0 && peso <=120,2 )
+      document.getElementById ('resposta').innerHTML = "Parabéns ";
+      nome + ", voce está na categoria pesado"; 
+    }
+  
